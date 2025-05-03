@@ -55,11 +55,41 @@ h1 {
     color:#00474B;
 }
 
+input[type=number] {
+    background-color: #F3F9FA;
+    color: #00474B;
+    border: none;
+    width: 379px;
+    height: 48px;
+    padding-left:30px;
+}
+
+#bill {
+    background: url(images/icon-dollar.svg) no-repeat scroll 7px 7px;
+}
+
+#peopleInput {
+    background: url(images/icon-person.svg) no-repeat scroll 7px 7px;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
 .percentage button {
     background-color: #00474B;
     border: none;
     color: #ffffff;
     padding: 5px;
+    margin: 5px;
     width: 116px;
     height: 48px;
     text-align: center;
@@ -82,12 +112,20 @@ h1 {
     border-radius: 10px;
 }
 
+.rightBox {
+    width: 80%;
+    height: 100%;
+    margin: 30px auto; 
+}
+
 .tipAmount {
     display: flex;
+    justify-content: space-between;
 }
 
 .total {
     display: flex;
+    justify-content: space-between;
 }
 
 .button {
@@ -103,16 +141,23 @@ h1 {
     font-family: monospace;
     text-transform: uppercase;
     font-weight: 700;
+    margin-top: 110px;
+    width: 100%;
 }
 
 .amount p {
     font-size: 32px;
     color: #26C2AE;
-    margin: 0;
+    /* margin: 0; */
 }
 
 .word {
     color: #ffffff;
+}
+
+.word > :first-child {
+    font-size: 16px;
+    line-height: 4px;;
 }
 
 .attribution {
