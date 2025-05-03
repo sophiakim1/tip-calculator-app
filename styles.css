@@ -1,0 +1,131 @@
+body {
+    background-color: #C5E4E7;
+    margin: 0;
+    padding: 0;
+    height: 100svh;
+    font-family: monospace;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    text-transform: uppercase;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    color: #3D6666;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+}
+
+.container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.box {
+    background-color: #ffffff;
+    text-align: center;
+    height: 481px;
+    width: 920px;
+    margin: 0 auto;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left {
+    width: 413px;
+    height: 417px;
+}
+
+.left p {
+    color:#00474B;
+}
+
+.percentage button {
+    background-color: #00474B;
+    border: none;
+    color: #ffffff;
+    padding: 5px;
+    width: 116px;
+    height: 48px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;    
+    border-radius: 5px;
+    font-family: monospace;
+}
+
+.custom {
+    background-color: #F3F9FA !important;
+    color: #00474B !important;
+}
+
+.right {
+    background-color: #00474B;
+    width: 413px;
+    height: 417px;
+    border-radius: 10px;
+}
+
+.tipAmount {
+    display: flex;
+}
+
+.total {
+    display: flex;
+}
+
+.button {
+    background-color: #26C2AE;
+    border: none;
+    color: #00474B;
+    padding: 15px 120px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;    
+    border-radius: 5px;
+    font-family: monospace;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.amount p {
+    font-size: 32px;
+    color: #26C2AE;
+    margin: 0;
+}
+
+.word {
+    color: #ffffff;
+}
+
+.attribution {
+    justify-content: center;
+    align-items: center;
+    color: #00474B;
+}
+
+.attribution a {
+    text-decoration: none;
+    color: #00474B;
+}
+
+.attribution a:hover {
+    color: hsl(189, 47%, 97%);
+}
