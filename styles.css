@@ -40,10 +40,11 @@ h1 {
     height: 481px;
     width: 920px;
     margin: 0 auto;
-    border-radius: 10px;
+    border-radius: 25px;
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: 0 8px 8px -4px lightblue;
 }
 
 .left {
